@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4FC3618422943B5D007019CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3618322943B5D007019CF /* AppDelegate.swift */; };
-		4FC3618622943B5D007019CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3618522943B5D007019CF /* ViewController.swift */; };
 		4FC3618922943B5D007019CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC3618722943B5D007019CF /* Main.storyboard */; };
 		4FC3618B22943B60007019CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC3618A22943B60007019CF /* Assets.xcassets */; };
 		4FC3618E22943B60007019CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC3618C22943B60007019CF /* LaunchScreen.storyboard */; };
+		4FC3619622943E64007019CF /* CalculadoraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC3619522943E64007019CF /* CalculadoraVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FC3618022943B5D007019CF /* Calculadora de Propinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculadora de Propinas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC3618322943B5D007019CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FC3618522943B5D007019CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FC3618822943B5D007019CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FC3618A22943B60007019CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC3618D22943B60007019CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FC3618F22943B60007019CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC3619522943E64007019CF /* CalculadoraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4FC3618322943B5D007019CF /* AppDelegate.swift */,
-				4FC3618522943B5D007019CF /* ViewController.swift */,
+				4FC3619522943E64007019CF /* CalculadoraVC.swift */,
 				4FC3618722943B5D007019CF /* Main.storyboard */,
 				4FC3618A22943B60007019CF /* Assets.xcassets */,
 				4FC3618C22943B60007019CF /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC3618622943B5D007019CF /* ViewController.swift in Sources */,
+				4FC3619622943E64007019CF /* CalculadoraVC.swift in Sources */,
 				4FC3618422943B5D007019CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
