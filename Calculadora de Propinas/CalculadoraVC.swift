@@ -20,11 +20,20 @@ class CalculadoraVC: UIViewController {
     var porcentaje: Float = 0
     var arrButtons: [UIButton] = []
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidLoad()
+        let tapRec: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismisKeyboard))
+        self.view.addGestureRecognizer(tapRec)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         arrButtons = [btn20,btn15,btn10]
 
+    }
+ 
+    @objc func dismisKeyboard(){
+        view.endEditing(true)
     }
     
     func showAlert(titulo:String ,mensaje: String ){
@@ -61,8 +70,8 @@ class CalculadoraVC: UIViewController {
             
             let total = factura + propina
             
-            lblPropina.text = "$\(propina)"
-            lblTotal.text = "$\(total)"
+            lblPropina.text = String(format: "$ %.2f", propina)
+            lblTotal.text = String(format: "$ %.2f", total)
         }
     }
     
